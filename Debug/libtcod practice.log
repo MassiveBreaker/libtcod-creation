@@ -1,0 +1,9 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void __cdecl TCODConsole::initRoot(int,int,char const *,bool,enum TCOD_renderer_t)" (__imp_?initRoot@TCODConsole@@SAXHHPBD_NW4TCOD_renderer_t@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl TCODConsole::isWindowClosed(void)" (__imp_?isWindowClosed@TCODConsole@@SA_NXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall TCODConsole::clear(void)" (__imp_?clear@TCODConsole@@QAEXXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall TCODConsole::putChar(int,int,int,enum TCOD_bkgnd_flag_t)" (__imp_?putChar@TCODConsole@@QAEXHHHW4TCOD_bkgnd_flag_t@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void __cdecl TCODConsole::flush(void)" (__imp_?flush@TCODConsole@@SAXXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static enum TCOD_event_t __cdecl TCODSystem::checkForEvent(int,struct TCOD_key_t *,struct TCOD_mouse_t *)" (__imp_?checkForEvent@TCODSystem@@SA?AW4TCOD_event_t@@HPAUTCOD_key_t@@PAUTCOD_mouse_t@@@Z) referenced in function _main
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class TCODConsole * TCODConsole::root" (__imp_?root@TCODConsole@@2PAV1@A)
+C:\Users\dvonj\source\repos\libtcod practice\Debug\libtcod practice.exe : fatal error LNK1120: 7 unresolved externals
